@@ -334,15 +334,15 @@ export default function Home() {
               <MaskContainer
                 revealText={
                   <p className="mx-auto max-w-4xl text-center text-4xl font-bold text-slate-800 dark:text-white bg-transparent">
-                    Hover <span className="text-[#7558ea]">Here.</span>
+                    Secure <span className="text-[#4025aa]">Data Wiping</span> Starts Here.
                   </p>
                 }
                 className="h-[40rem] text-white dark:text-black"
               >
-                Discover the power of{" "}
-                <span className="text-[#4025aa]">Data Wiping</span> with native CSS
-                variables and container queries with
-                <span className="text-[#4025aa]"> advanced architectures</span>.
+                Protect sensitive information with our{" "}
+                <span className="text-[#4025aa] font-semibold">secure data wiping</span>{" "}
+                process — cryptographically verified, tamper-proof certificates, and
+                eco-friendly disposal.
               </MaskContainer>
             </div>
           </div>
