@@ -181,7 +181,7 @@ export default function Home() {
               <span className="font-bold">
                 Wipe. Verify. Relax. | Launch Special
               </span>
-              {" "}– Get <span className="font-bold">20% </span>OFF on all premium data-wiping plans! Offer valid till <span className="font-bold">30 Sept. </span>
+              {" "}– Get <span className="font-bold">20% </span>OFF on all premium data-wiping plans! Offer valid till <span className="font-bold">30 Nov. </span>
             </p>
           </div>
           {/* Navbar */}
@@ -194,7 +194,7 @@ export default function Home() {
                 height={40}
                 className="mr-3 rounded-full"
               />
-              <Link href="/">Leth<span className="italic">e</span></Link>
+              <Link href="/">Le<span className="italic">the</span></Link>
             </span>
             {/* Hamburger for small screens */}
             <button
@@ -347,10 +347,10 @@ export default function Home() {
             </div>
           </div>
           {/* About Section */}
-          <section 
-          ref={missionRef}
-          className={`w-full max-w-5xl mx-auto mt-20 px-8 py-12 bg-black/80 rounded-2xl shadow-lg flex-col md:flex-row gap-8 transition-all duration-1000 ease-out
-          ${missionVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
+          <section
+            ref={missionRef}
+            className={`w-full max-w-5xl mx-auto mt-20 px-8 py-12 bg-black/80 rounded-2xl shadow-lg flex flex-col md:flex-row items-center gap-8 transition-all duration-1000 ease-out
+            ${missionVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
           >
             <div className="flex-1">
               <h2 className="text-5xl italic font-bold text-white mb-4">Mission</h2>
@@ -383,7 +383,8 @@ export default function Home() {
               />
             </div>
           </section>
-          {/* Credentials Section */}
+            {/* Credentials Section */}
+            <div className="-mt-12 md:-mt-16" aria-hidden="true" />
           <section
             ref={credsRef}
             className={`w-full max-w-5xl mx-auto mt-24 mb-24 px-8 items-end transition-all duration-1000 ease-out
@@ -403,7 +404,7 @@ export default function Home() {
             className={`w-full max-w-7xl mx-auto mb-34 px-8 flex flex-col items-end transition-all duration-1000 ease-out
             ${usersVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
           >
-            <h2 className="text-5xl font-bold text-white mb-30">
+            <h2 className="text-5xl font-bold text-white mb-8 w-full text-center -mt-6">
               Trusted <span className="italic">Users</span>
             </h2>
             <LogoLoop
