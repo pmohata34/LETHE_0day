@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Lethe
+
+Lethe is a modern web experience for a secure data-wiping solution. The site presents Lethe's mission, product credentials, pricing, trusted users, documentation, and download options for supported platforms.
+
+## Features
+
+- Secure data-wiping product landing page with animated hero media
+- Mission, credentials, transparency, pricing, and trusted-user sections
+- Documentation page for product and integration content
+- Download page with platform-specific download actions
+- Smooth scrolling, scroll-triggered animations, interactive UI cards, and chatbot widget
+- Responsive navigation with desktop and mobile menus
+
+## Tech Stack
+
+- [Next.js](https://nextjs.org/) 15
+- [React](https://react.dev/) 19
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- GSAP, Lenis, Motion, Three.js, React Three Fiber, and React Icons
+- Backend/tools: Go and Python
 
 ## Getting Started
 
-First, run the development server:
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Available Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run dev
+```
 
-## Learn More
+Starts the local development server with Turbopack.
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Creates a production build.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run start
+```
 
-## Deploy on Vercel
+Starts the production server after building.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Project Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```text
+public/                 Static images, video, logo, and fonts
+src/app/                Next.js app router pages and layout
+src/app/page.tsx        Main Lethe landing page
+src/app/Doc/page.tsx    Documentation page
+src/app/download/page.tsx
+                        Download page
+src/app/components/     Reusable UI components
+src/app/lib/            Shared utilities and hooks
+```
+
+## Deployment
+
+This project is ready to deploy on [Vercel](https://vercel.com/). Connect the GitHub repository to a Vercel project, then push changes to the production branch to trigger deployments.
+
+## Contributors
+
+- [0day-Ashish](https://github.com/0day-Ashish)
+- Arya Singh
+
+## License
+
+No license has been added yet.
